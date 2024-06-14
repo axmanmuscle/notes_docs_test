@@ -1,10 +1,7 @@
 ---
-title: Vectors, Matrics, and Norms
-categories: [optimization]
-tags: [optimization]
-datacamp: 1
-maths: 1
-toc: 1
+layout: default
+title: Linear Algebra
+nav_order: 2
 ---
 # Introduction
 This will serve as a small refresher about some linear algebra topics that will be useful later. 

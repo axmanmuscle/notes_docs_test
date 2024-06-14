@@ -1,10 +1,7 @@
 ---
+layout: default
 title: Building This Website
-categories: [website]
-tags: [general]
-datacamp: 1
-maths: 1
-toc: 1
+nav_order: 2
 ---
 
 ## Github Pages

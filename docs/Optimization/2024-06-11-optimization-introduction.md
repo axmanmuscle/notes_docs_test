@@ -1,10 +1,7 @@
 ---
+layout: default
 title: Intro and To Do
-categories: [optimization]
-tags: [optimization]
-datacamp: 1
-maths: 1
-toc: 1
+nav_order: 2
 ---
 
 Let's make a to-do list of what we want to do here.
@@ -16,7 +13,13 @@ Where do I even start with the field of numerical optimization. I'm very biased 
 
 It seems I can write markdown on Overleaf so I'll have a way to contribute remotely. This package also lets me upload papers so this will serve as a repository and get my ass in gear to start doing citations better.
 
-## To Do
+## To Do (Website)
+ 1. Gotta learn how to make categories and make the website look cleaner.
+ 2. Probably just get rid of the other layouts and focus on this one, I think this looks the best.
+ 3. Figure out how to host PDFs on here? Could make up a citation thing as well but that may not be necessary.
+ 4. Figure out if math is gonna render
+
+## To Do (Math)
  1. Introduction to numerical optimization/calculus?
  2. Norms/Vectors/Matrices
  3. Convexity, strong and strict, Lipschitz, Gradients, these things
@@ -33,3 +36,9 @@ It seems I can write markdown on Overleaf so I'll have a way to contribute remot
  8. Algorithms
 	 1. Newton and Quasi Newton
  9. Line Searches
+
+### Towards This
+#### Gradient Descent
+Let's talk about the simplest possible first order method - gradient descent. In fact we'll start even simpler and talk about this in one-dimension, so this is just derivative descent or the optiizmation that we all learned in our first calculus classes.
+
+Let $f$ be a function that is differentiable.

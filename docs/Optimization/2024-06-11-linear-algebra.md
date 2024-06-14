@@ -18,8 +18,10 @@ This seems straightforward and if I were to ask you what the dimension of this s
 
 $$e_1 = \begin{bmatrix} 1 \\ 0 \end{bmatrix} , \qquad e_2 = \begin{bmatrix} 0 \\ 1 \end{bmatrix},$$
 
-since we can form any $x \in \mathbb{C}^2$ from these two vectors. However if the scalar field is _real_, so we draw our scalars from $\mathbb{R}$, this vector space is now dimension four. The basis vectors are
+since we can form any \(x \in \mathbb{C}^2\) from these two vectors. However if the scalar field is _real_, so we draw our scalars from $\mathbb{R}$, this vector space is now dimension four. The basis vectors are
+
 $$e_1 = \begin{bmatrix} 1 \\ 0 \end{bmatrix}, \; e_2 = \begin{bmatrix} 0 \\ 1 \end{bmatrix}, \; e_3 = \begin{bmatrix} i \\ 0 \end{bmatrix}, \; e_4 = \begin{bmatrix} 0 \\ i \end{bmatrix},$$
+
 where $i$ is defined as the usual imaginary unit $i^2 = -1$. Here we need four vectors to span the entire space since we do not have the luxury of complex scalars.
 
 # Matrices

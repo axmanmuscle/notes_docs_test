@@ -7,7 +7,7 @@ maths: 1
 toc: 1
 ---
 
-{% include toc.html %}
+<!-- {% include toc.html %} -->
 
 ## Front Matter
 
@@ -73,9 +73,9 @@ You can also insert a keyboard key like this <kbd>Ctrl</kbd> + <kbd>B</kbd>, jus
 
 ### Standard
 
-~~~ {% raw %}
+<!-- ~~~ {% raw %}
 ![](/link/to/figure/){:.w-500 .no-border}
-{% endraw %} ~~~
+{% endraw %} ~~~ -->
 
 <div class="thi-colums" markdown="1">
 - `no-border`: remove the border around figure
@@ -84,9 +84,9 @@ You can also insert a keyboard key like this <kbd>Ctrl</kbd> + <kbd>B</kbd>, jus
 
 ### Inline
 
-~~~ {% raw %}
+<!-- ~~~ {% raw %}
 {% include img-inline.html content="/link/to/figure/" %}
-{% endraw %} ~~~
+{% endraw %} ~~~ -->
 
 ## Insert an video from Youtube
 

@@ -30,3 +30,25 @@ Okay actually what the hell is this build file doing. This makes no sense. Need 
 Another massive problem I just saw is that all the links so far are to ``/notes-jekyll/`` mirroring the repository name from the creator. Our repo is just named ``/notes/`` so this will cause issues. Figure out how to fix.
 
 I'd bet some stuff has changed with actions since this was written. Go read the documentation for GitHub actions and see if you can fix.
+
+## Just The Docs
+All of the above was written specifically for the `notes-jekyll` distribution or theme. I think I'm going to switch over to Just the Docs, which is slightly cleaner and gives me the layout that I like better. 
+
+To get this to work, I needed to do the following.
+
+#### Front Matter
+On each post, I needed a front matter that looked like
+```
+---
+layout: default
+title: Building This Website
+nav_order: 2
+---
+```
+without which the pages didn't compile correctly.
+
+#### Github Actions
+Letting the github actions run normally deploys this right to pages. 
+
+#### Posts
+All posts are just located in the `docs` folder, just like the original repo is set up.

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Intro and To Do
-nav_order: 2
+nav_order: 4
+math: mathjax3
 ---
 
 Let's make a to-do list of what we want to do here.
@@ -15,27 +16,27 @@ It seems I can write markdown on Overleaf so I'll have a way to contribute remot
 
 ## To Do (Website)
  1. Gotta learn how to make categories and make the website look cleaner.
- 2. Probably just get rid of the other layouts and focus on this one, I think this looks the best.
- 3. Figure out how to host PDFs on here? Could make up a citation thing as well but that may not be necessary.
- 4. Figure out if math is gonna render
+ 1. Probably just get rid of the other layouts and focus on this one, I think this looks the best.
+ 1. Figure out how to host PDFs on here? Could make up a citation thing as well but that may not be necessary.
+ 1. Figure out if math is gonna render
 
 ## To Do (Math)
  1. Introduction to numerical optimization/calculus?
- 2. Norms/Vectors/Matrices
- 3. Convexity, strong and strict, Lipschitz, Gradients, these things
- 4. *Monotone Operators * 
+ 1. Norms/Vectors/Matrices
+ 1. Convexity, strong and strict, Lipschitz, Gradients, these things
+ 1. *Monotone Operators * 
 	 1. __This should be a big section. Focus on this for now__
-	 2. Properties
-	 3. Resolvents
-	 4. Reflected Resolvents
-	 5. Connection to Euler
- 5. Gradient Descent and step size/Lipschitz things
+	 1. Properties
+	 1. Resolvents
+	 1. Reflected Resolvents
+	 1. Connection to Euler
+ 1. Gradient Descent and step size/Lipschitz things
 	 1. Stuff to prove here: optimal step size given strong and strict convexity
- 6. Proximal operators
- 7. Proximal gradient descent/forward backward splitting
- 8. Algorithms
+ 1. Proximal operators
+ 1. Proximal gradient descent/forward backward splitting
+ 1. Algorithms
 	 1. Newton and Quasi Newton
- 9. Line Searches
+ 1. Line Searches
 
 ### Towards This
 #### Gradient Descent

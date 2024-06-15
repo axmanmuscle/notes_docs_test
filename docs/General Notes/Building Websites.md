@@ -2,7 +2,7 @@
 layout: default
 title: Building This Website
 nav_order: 2
-parent: General Notes
+parent: General
 ---
 
 ## Github Pages

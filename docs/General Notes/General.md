@@ -1,6 +1,6 @@
 ---
 layout: default
-title: General Notes
+title: General
 nav_order: 1
 math: mathjax3
 has_children: true

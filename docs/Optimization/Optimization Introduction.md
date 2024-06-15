@@ -3,7 +3,7 @@ layout: default
 title: Intro and To Do
 nav_order: 1
 math: mathjax3
-parent: optimization
+parent: Optimization
 ---
 
 Let's make a to-do list of what we want to do here.

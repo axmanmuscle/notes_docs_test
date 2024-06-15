@@ -3,7 +3,7 @@ layout: default
 title: Linear Algebra
 nav_order: 2
 math: mathjax3
-parent: optimization
+parent: Optimization
 ---
 # Introduction
 This will serve as a small refresher about some linear algebra topics that will be useful later. 

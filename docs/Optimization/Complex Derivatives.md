@@ -3,7 +3,7 @@ layout: default
 title: Complex Derivatives
 nav_order: 3
 math: mathjax3
-parent: optimization
+parent: Optimization
 ---
 
 ## Introduction

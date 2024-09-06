@@ -16,3 +16,4 @@ This will be about _Bayesian Statistics_, a branch of statistics (more like a ph
  1. Page about distributions (easy to write if you want to spend time on this)
  1. Bayes as logic (from Jaynes/the talk you gave)
  1. Would be fun to do software examples
+ 1. List of conjugate distributions would be nice

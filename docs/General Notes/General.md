@@ -20,3 +20,5 @@ Here's a list of things to try to accomplish:
  1. Maybe see if you can dork with the theme, even though it looks nice as is
  1. Write out a list of things you want to discuss (Bayes?)
  1. Figure out how to link posts?
+ 1. Make a general statistics page
+ 1. Signal processing?

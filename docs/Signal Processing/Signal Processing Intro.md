@@ -18,3 +18,5 @@ This will be about _Signal Processing_, where I will detail some stuff I find in
  1. Estimation and Detection
  1. Time series stuff maybe
  1. Complex Valued noise
+ 1. Beamforming/aperture combining?
+ 1. Radar stuff perhaps

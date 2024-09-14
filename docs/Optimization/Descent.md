@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Descent
-nav_order: 1
+nav_order: 2
 math: mathjax3
 parent: Optimization
 ---
@@ -40,6 +40,4 @@ $$
 where $\alpha$ is the step size. There are different heuristics or searches for choosing a step size based on other characteristics of the problem and the function $f$.
 
 ## Gradient Descent
-This is the most popular form of descent algorithm. We'll assume that $f$ is _continuously differentiable_ and we have access to evaluate $\nabla f$. The steepest direction of descent at point $x_k$ is $-\nabla f(x_k)$[^1].
-
-[^1] Commonly shown in initial calculus classes.
+This is the most popular form of descent algorithm. We'll assume that $f$ is _continuously differentiable_ and we have access to evaluate $\nabla f$. The steepest direction of descent at point $x_k$ is $-\nabla f(x_k)$.

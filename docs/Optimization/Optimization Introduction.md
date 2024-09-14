@@ -37,7 +37,7 @@ It seems I can write markdown on Overleaf so I'll have a way to contribute remot
  1. Proximal gradient descent/forward backward splitting
  1. Algorithms
 	 1. Newton and Quasi Newton
- 1. Line Searches
+ 2. Line Searches
 
 ### Towards This
 #### Gradient Descent

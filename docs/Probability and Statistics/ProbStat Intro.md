@@ -24,3 +24,19 @@ What I think a lot of books miss is _what_ is the difference between probability
 
 __Probability is about the future. Statistics is about the past.__
 
+By way of example - suppose we have a fair coin. We toss it three times. What is the _probability_ that we get _at least_ two heads? We can enumerate all eight possible outcomes:
+
+ - HHH
+ - HHT
+ - HTH
+ - HTT
+ - THH
+ - THT
+ - TTH
+ - TTT
+
+How many of these outcomes have at least two heads? Four! In this case we had information about the _generating phenomenon_ and used it to infer what the future might hold. This was a _probability_ question.
+
+The reverse question might be: A coin was tossed ten times and it was heads 8 times. Do you believe the coin is fair? This is a _statistics_ question. We were given the data and asked to make deductions about the generating phenomenon.
+
+Herein lies the nuance that most probability and statistics courses miss. If you want to do _statistics_ you have to have a firm grasp of _probability_ in the first place.

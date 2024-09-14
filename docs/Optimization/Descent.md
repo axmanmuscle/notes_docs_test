@@ -10,12 +10,14 @@ parent: Optimization
 The most intuitive optimization algorithm (and often the first taught, in an introductory calculus course) is a _descent method_. The concept makes sense: we have a function $f$ which we want to minimize. We're at a point $x$ with function value $f(x)$. Let's choose a direction $\mathbf{p}$ such that $f(x + \mathbf{p}) < f(x)$! We want to make the function value decrease, so let's choose the direction that does that! Groundbreaking. 
 
 In its simplest form, our problem is
+
 $$
 \begin{equation}
 \underset{x \in \mathcal{H}}{\text{minimize}}\; f(x)
 \label{eq:primal}
 \end{equation}
 $$
+
 where $\mathcal{H}$ is a Hilbert space and $f$ is a continuous function $f: \mathcal{H} \to \mathcal{H}$. Our algorithm is, given some point $x_k$, choose point 
 
 $$
@@ -34,7 +36,10 @@ $$
 x_{k+1} = x_k + \alpha\mathbf{p}
 \end{equation}
 $$
+
 where $\alpha$ is the step size. There are different heuristics or searches for choosing a step size based on other characteristics of the problem and the function $f$.
 
 ## Gradient Descent
-This is the most popular form of descent algorithm. We'll assume that $f$ is _continuously differentiable_, so we have $f'(x)$ and it's well defined. 
+This is the most popular form of descent algorithm. We'll assume that $f$ is _continuously differentiable_ and we have access to evaluate $\nabla f$. The steepest direction of descent at point $x_k$ is $-\nabla f(x_k)$[^1].
+
+[^1] Commonly shown in initial calculus classes.

@@ -39,8 +39,3 @@ It seems I can write markdown on Overleaf so I'll have a way to contribute remot
 	 1. Newton and Quasi Newton
  2. Line Searches
 
-### Towards This
-#### Gradient Descent
-Let's talk about the simplest possible first order method - gradient descent. In fact we'll start even simpler and talk about this in one-dimension, so this is just derivative descent or the optiizmation that we all learned in our first calculus classes.
-
-Let $f : \mathbb{R} \to \mathbb{R}$ be differentiable and denote as $\frac{df}{dx}$ its derivative.

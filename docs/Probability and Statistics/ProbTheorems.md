@@ -9,3 +9,7 @@ parent: Prob&Stats
 ## Law of the Unconcious Statistician 
 
 ## Kolmogorov Bounds
+
+Lehmann-Schefe?
+
+Cramer-Rao

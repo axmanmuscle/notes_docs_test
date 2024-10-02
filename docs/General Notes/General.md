@@ -22,3 +22,5 @@ Here's a list of things to try to accomplish:
  1. Figure out how to link posts?
  1. Make a general statistics page
  1. Signal processing?
+ 1. Figure out how to do citations
+ 2. Might want a separate full linear algebra section, esp. for matrix derivatives and such

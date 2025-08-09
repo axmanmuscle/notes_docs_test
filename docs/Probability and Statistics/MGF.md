@@ -15,16 +15,12 @@ A _moment_ of a random variable $X$ describes some behavior about the graph of t
 #### Definition: Moment Generating Function
 Let $X$ be a random variable with pdf $f$. The moment generating function is given by
 
-$$
 \begin{equation}
 m(t) = \mathcal{E}\left[e^{tX}\right].
 \end{equation}
-$$
 
 The $n^{\text{th}}$ moment of $X$ is given by
 
-$$
 \begin{equation}
 \frac{\text{d}}{\text{dt}} m(t)\,\rvert_{t = 0}.
 \end{equation}
-$$

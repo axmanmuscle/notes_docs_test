@@ -3,7 +3,7 @@ layout: default
 title: Intro and To Do
 nav_order: 3
 math: mathjax3
-parent: Fourier Theory
+parent: Signal Processing
 ---
 
 ## Fourier Theory

@@ -3,7 +3,7 @@ layout: default
 title: Intro and To Do
 nav_order: 4
 math: mathjax3
-parent: Laplace Transform
+parent: Signal Processing
 ---
 
 ## Laplace Transform

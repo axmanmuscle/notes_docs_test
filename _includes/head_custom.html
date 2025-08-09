@@ -8,9 +8,16 @@
           tags: 'ams',
           packages: {'[+]': ['textmacros']},
           inlineMath: [['$', '$']],
+          displayMath: [['$$', '$$']],
+          macros: {
+            R: "\\mathbb{R}"
+          }
         },
         loader: {
           load: ['[tex]/textmacros']
+        },
+        chtml: {
+          scale: 1.02
         }
       };
     </script>

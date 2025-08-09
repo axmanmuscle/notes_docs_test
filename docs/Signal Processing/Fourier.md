@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Intro and To Do
+title: Fourier Theory
 nav_order: 3
 math: mathjax3
 parent: Signal Processing

@@ -31,11 +31,9 @@ such that $f(x_{k+1}) \leq f(x_k)$. Note here that $p \in \mathcal{H}$ as well, 
 
 Often we'll associate with a descent method a _step size_ in that direction, turning \eqref{eq:descent} into
 
-$$
 \begin{equation}
 x_{k+1} = x_k + \alpha\mathbf{p}
 \end{equation}
-$$
 
 where $\alpha$ is the step size. There are different heuristics or searches for choosing a step size based on other characteristics of the problem and the function $f$.
 

@@ -18,8 +18,10 @@ The _standard deviation_ is the square root of the variance, i.e., $\sigma$. How
 The _n_-dimensional Gaussian distribution (or _multivariate normal_) has mean $\mu$ (now an _n_-dimensional vector) and covariance matrix $\Sigma$, an $n \times n$ symmetric positive definite matrix. The pdf is:
 
 \begin{equation}
-f(x) = (2\pi)^{-k/2}\lvert \Sigma \rvert^{-1/2}\exp\left\\{\frac{-1}{2}\left(x - \mu)^T\Sigma^{-1}(x-\mu)\right\\}.
+f(x) = (2\pi)^{-k/2}\vert \Sigma \vert^{-1/2}\exp\left\\{\frac{-1}{2}\left(x - \mu\right)^T\Sigma^{-1}\left(x-\mu\right)\right\\}.
 \end{equation}
+
+The inverse of the covariance matrix is called the _precision matrix_ $Q = \Sigma^{-1}$. 
 
 ## To Do
  1. Introduction to Bayes

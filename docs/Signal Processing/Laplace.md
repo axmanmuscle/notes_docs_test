@@ -19,7 +19,7 @@ Another useful integral transformations is the _Laplace transform_.
 Let $x(t)$ be a real valued signal. The _Laplace transform_ of $x$ is
 
 \begin{equation}
-\mathcal{L}\left\{x\right\}(s) = \int_{0}^{\infty}x(t)e^{-st}\text{d}t,
+\mathcal{L}\left\\{x\right\\}(s) = \int_{0}^{\infty}x(t)e^{-st}\mathrm{d}t,
 \end{equation}
 
 where $s$ is a complex-valued parameter $s = \sigma + i\omega$.

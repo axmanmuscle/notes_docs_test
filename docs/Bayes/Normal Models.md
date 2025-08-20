@@ -23,6 +23,22 @@ f(x) = (2\pi)^{-k/2}\vert \Sigma \vert^{-1/2}\exp\left\\{\frac{-1}{2}\left(x - \
 
 The inverse of the covariance matrix is called the _precision matrix_ $Q = \Sigma^{-1}$. 
 
+There are usually one of three goals with a Normal model:
+  1. Estimate the mean with a known variance
+  1. Estimate the variance with a known mean
+  1. Estimate both the mean and the variance jointly
+
+As is usually the case with Bayesian analysis, we will treat these parameters as _random variables_ and attempt to estimate their _distributions_.
+
+### Unknown Mean, Known Variance
+For this first model, the conjugate prior choice for the mean (or _location parameter_) is also a Normal distribution. So here is the set up. Suppose our likelihood is
+\begin{equation}
+\begin{aligned}
+x_i \, \vert \, \mu &\sym \mathcal{N}\left(\mu, \sigma^2) \\
+\mu &\sym \mathcal{N}\left(\mu_p, \sigma_p^2).
+\end{equation}
+In this model, $\mu_p$ and $\sigma_p$ are specified hyperparameters (not parameters being estimated).
+
 ## To Do
  1. Introduction to Bayes
  1. Normal Modeling (write out normal with unknown mean, unknown std dev., both)
@@ -31,3 +47,8 @@ The inverse of the covariance matrix is called the _precision matrix_ $Q = \Sigm
  1. Bayes as logic (from Jaynes/the talk you gave)
  1. Would be fun to do software examples
  1. List of conjugate distributions would be nice
+
+
+I think it would be nice to do like, normal-normal model for mean, then show what it looks like as you add data. Then also python code to do it
+
+Then MCMC? Like what if the data is normal and we have a tight prior on the mean (uniform?) what happens then?
